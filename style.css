@@ -1,17 +1,123 @@
+::selection{
+    color: white;
+    background-color: grey;
+}
+
+*{
+    margin: 0%;
+}
+.ulan:hover{
+  cursor: pointer;
+}
+.ulan{
+    background-color: blue;
+    border-radius: 10px;
+    position: fixed;
+    padding: 10px;
+    margin-left: 1300px;
+    margin-top: 680px;
+    z-index: 1;
+    border: 3px solid red;
+}
+
 .container1{
+    overflow-y: scroll;
     background-color: blueviolet;
     position: fixed;
     width: 25%;
-    height: 90vh;
+    height: 100vh;
     z-index: 4;
     display:none ;
 }
+.container2{
+    width: 1400px;
+}
+.bbimg{
+    width: 50px;
+}
+.bb :hover{
+    width: 100px;
+    /* position: absolute; */
+    /* position: fixed; */
+    color: wheat;
+    background-color: gray;
+    font-size: 30px;
+    /* margin-left: 500px; */
+    margin-left: 1500px;
+    height: 100vh;
+}
+.bb{
+    opacity: .3;
+    width: 100px;
+    position: absolute;
+    position: fixed;
+    color: wheat;
+    background-color: gray;
+    font-size: 30px;
+    /* margin-left: 500px; */
+    margin-left: 1500px;
+    height: 100vh;
+}
+main{
+    margin-bottom: 5px;
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    margin-left: 15px;
+    background:red;
+    border-radius: 10px;
+    border: 3px solid blue;
+    font-size: 20px;
+}
+.botdespir3{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 3px;
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+main:hover{
+background: linear-gradient(to bottom, red, orange, yellow, green, cyan, blue, violet);
+font-size: 30px;
+cursor:help;
+}
 
-.imgfix{
-    padding-left: 75px;
+.des,
+.pirog,
+.torti{
+    display: none;
+}
+.botdespir2{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 3px;
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 
+.botdespir1{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 3px;
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
 
 /* .names{
     text-align: center;
@@ -25,7 +131,9 @@
 button:hover{
     cursor: pointer;
 }
-button{
+.bot1,
+.bot2,
+.bot3{
     border-radius: 3px;
     background-color: black;
     border: none;
@@ -121,6 +229,8 @@ padding-top: 95px;
     display: none;
 } */
 .lo{
+    margin-top: 60px;
+    margin-left: 90px;
     width: 200px;
     height: 200px;
     border-radius: 200px;
@@ -166,7 +276,7 @@ padding-top: 95px;
     left: 1400px;
     }
     12.5%{ 
-    top: -15px;
+    top: 0px;
     left: 1225px;
     }
     25%{
@@ -174,7 +284,7 @@ padding-top: 95px;
         left: 1050px;
     }
     37.5%{
-        top: -15px;
+        top: 0px;
         left: 875px;
     }
     50%{
@@ -182,7 +292,7 @@ padding-top: 95px;
         left: 700px;
     }
     62.5%{
-        top: -15px;
+        top: 0px;
         left: 525px;
     }
     75%{
@@ -190,7 +300,7 @@ padding-top: 95px;
     left:350px ;
     }
     87.5%{
-        top: -15px;
+        top: 0px;
         left: 175px;
     }
     100%{
@@ -207,7 +317,7 @@ padding-top: 95px;
     left: 1400px;
     }
     25%{
-    top: -15px;
+    top: 0px;
     left: 1225px;
     }
     37.5%{
@@ -215,7 +325,7 @@ padding-top: 95px;
         left: 1050px;
     }
     50%{
-        top: -15px;
+        top: 0px;
         left: 875px;
     }
     62.5%{
@@ -223,7 +333,7 @@ padding-top: 95px;
         left: 700px;
     }
     75%{
-        top: -15px;
+        top: 0px;
         left: 525px;
     }
     87.5%{
@@ -265,7 +375,7 @@ padding-top: 95px;
     left: 1400px;
     }
     25%{
-    top: -15px;
+    top: 0px;
     left: 1225px;
     }
     37.5%{
@@ -273,7 +383,7 @@ padding-top: 95px;
         left: 1050px;
     }
     50%{
-        top: -15px;
+        top: 0px;
         left: 875px;
     }
     62.5%{
@@ -281,7 +391,7 @@ padding-top: 95px;
         left: 700px;
     }
     75%{
-        top: -15px;
+        top: 0px;
         left: 525px;
     }
     87.5%{
@@ -325,7 +435,7 @@ padding-top: 95px;
     left: 1400px;
     }
     25%{
-    top: -15px;
+    top: 0px;
     left: 1225px;
     }
     37.5%{
@@ -333,7 +443,7 @@ padding-top: 95px;
         left: 1050px;
     }
     50%{
-        top: -15px;
+        top: 0px;
         left: 875px;
     }
     62.5%{
@@ -341,7 +451,7 @@ padding-top: 95px;
         left: 700px;
     }
     75%{
-        top: -15px;
+        top: 0px;
         left: 525px;
     }
     87.5%{
@@ -383,7 +493,7 @@ padding-top: 95px;
     left: 1400px;
     }
     25%{
-    top: -15px;
+    top: 0px;
     left: 1225px;
     }
     37.5%{
@@ -391,7 +501,7 @@ padding-top: 95px;
         left: 1050px;
     }
     50%{
-        top: -15px;
+        top: 0px;
         left: 875px;
     }
     62.5%{
@@ -399,7 +509,7 @@ padding-top: 95px;
         left: 700px;
     }
     75%{
-        top: -15px;
+        top: 0px;
         left: 525px;
     }
     87.5%{
