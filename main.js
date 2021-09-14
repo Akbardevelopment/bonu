@@ -32,3 +32,7 @@ $(".bot").click(function(){
     $(".des").slideToggle(1000)
     }
     });
+
+    $(".ulan").click(function(){
+      $(".ulandiv").show();
+    })

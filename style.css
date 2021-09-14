@@ -6,6 +6,18 @@
 *{
     margin: 0%;
 }
+.ulandiv{
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid blue;
+    padding: 10px;
+    position: fixed;
+    z-index: 2;
+    margin-left:1300px ;
+    margin-top: 680px;
+    display: none;
+}
 .ulan:hover{
   cursor: pointer;
 }
