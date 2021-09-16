@@ -36,3 +36,9 @@ $(".bot").click(function(){
     $(".ulan").click(function(){
       $(".ulandiv").show();
     })
+
+
+$(".x-icon").click(function(){
+  $(".ulandiv").hide();
+})
+
