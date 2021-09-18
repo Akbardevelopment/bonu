@@ -21,19 +21,14 @@
     display: none;
     padding-top: 300px;
 }
-/* .slider>.slides>.slide{
- width: 300px;
- background-color: black;
- height: 100px;
 
-} */
 .ulan:hover{
 cursor: pointer;
 }
 
 .ulan{
     text-align: center;
-    color:aqua ;
+    color:aqua;
     width: 200px;
     background-color: black;
     border-radius: 10px;
@@ -46,8 +41,7 @@ cursor: pointer;
 }
 
 .x-icon{
-    position: absolute;
-    padding-bottom: 100px;
+    position: relative;
     width: 35px;
 }
 
@@ -73,22 +67,16 @@ cursor: pointer;
     display:none ;
 }
 
-.container2{
-    width: 1400px;
-}
-
 .bbimg{
     width: 50px;
 }
 
 .bb :hover{
+    opacity: 1;
     width: 100px;
-    /* position: absolute; */
-    /* position: fixed; */
     color: wheat;
     background-color: gray;
     font-size: 30px;
-    /* margin-left: 500px; */
     margin-left: 1500px;
     height: 100vh;
 }
@@ -96,12 +84,10 @@ cursor: pointer;
 .bb{
     opacity: .3;
     width: 100px;
-    position: absolute;
     position: fixed;
     color: wheat;
     background-color: gray;
     font-size: 30px;
-    /* margin-left: 500px; */
     margin-left: 1500px;
     height: 100vh;
 }
